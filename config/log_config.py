@@ -1,7 +1,7 @@
-import logging
-from logging.config import dictConfig
 import json
+import logging
 from datetime import datetime
+from logging.config import dictConfig
 
 # Custom JSON formatter
 class JsonFormatter(logging.Formatter):
